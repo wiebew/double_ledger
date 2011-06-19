@@ -1,4 +1,9 @@
 DoubleLedger::Application.routes.draw do
+
+  resources :parties
+
+  resources :ledger_accounts
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

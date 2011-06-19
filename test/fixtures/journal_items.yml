@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  amount_credit: 1
+  amount_debit: 1
+  narrative: MyText
+  currency: MyText
+  reference: MyText
+
+two:
+  amount_credit: 1
+  amount_debit: 1
+  narrative: MyText
+  currency: MyText
+  reference: MyText
