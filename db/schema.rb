@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110619143312) do
+ActiveRecord::Schema.define(:version => 20110715161915) do
 
   create_table "journal_items", :force => true do |t|
     t.integer  "amount_credit"
@@ -30,6 +30,9 @@ ActiveRecord::Schema.define(:version => 20110619143312) do
     t.integer  "sequence"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "name"
+    t.text     "description"
+    t.string   "type"
   end
 
   create_table "ledger_accounts", :force => true do |t|
@@ -37,6 +40,7 @@ ActiveRecord::Schema.define(:version => 20110619143312) do
     t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "journal_type"
   end
 
   create_table "parties", :force => true do |t|

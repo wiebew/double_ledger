@@ -4,6 +4,8 @@ DoubleLedger::Application.routes.draw do
 
   resources :ledger_accounts
 
+  resources :bank_journals
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

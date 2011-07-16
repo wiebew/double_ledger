@@ -14,6 +14,10 @@ module NavigationHelpers
       ledger_accounts_path
     when /^new account/
       new_ledger_account_path
+    when /^bank journals/
+      bank_journals_path
+    when /^new bank journal/
+      new_bank_journal_path
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

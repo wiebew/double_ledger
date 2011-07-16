@@ -1,0 +1,11 @@
+<%= semantic_form_for @journal do |form| %>
+  <% if @journal.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@journal.errors.count, "error") %> prohibited this bank journal from being saved:</h2>
+    </div>
+  <% end %>
+
+  <%= form.inputs %>
+  <%= form.buttons %>
+<% end %>
+

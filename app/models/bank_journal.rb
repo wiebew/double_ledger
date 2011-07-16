@@ -1,0 +1,2 @@
+class BankJournal < Journal
+end
